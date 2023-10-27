@@ -1,0 +1,1018 @@
+{
+    "seasons": [
+        {
+            "season": "1",
+            "name": "Prologue - Land of Waves Arc",
+            "start": 1,
+            "end": 19
+        },
+        {
+            "season": "2",
+            "name": "Chunin Exams Arc",
+            "start": 20,
+            "end": 67
+        },
+        {
+            "season": "3",
+            "name": "Konoha Crush",
+            "start": 68,
+            "end": 80
+        },
+        {
+            "season": "4",
+            "name": "Search For Tsunade",
+            "start": 81,
+            "end": 100
+        },
+        {
+            "season": "5",
+            "name": "Land Of Tea Escort Mission",
+            "start": 102,
+            "end": 106
+        },
+        {
+            "season": "6",
+            "name": "Sasuke Recovery Mission",
+            "start": 107,
+            "end": 135
+        },
+        {
+            "season": "7",
+            "name": "Land Of Rice Fields Investigation Mission",
+            "start": 136,
+            "end": 141
+        },
+        {
+            "season": "8",
+            "name": "Mizuki Tracking Mission",
+            "start": 142,
+            "end": 147
+        },
+        {
+            "season": "9",
+            "name": "Bikochu Search Mission",
+            "start": 148,
+            "end": 151
+        },
+        {
+            "season": "10",
+            "name": "Kurosuki Family Removal Mission",
+            "start": 152,
+            "end": 157
+        },
+        {
+            "season": "11",
+            "name": "Gosunkugi Capture Mission",
+            "start": 159,
+            "end": 160
+        },
+        {
+            "season": "12",
+            "name": "Cursed Warrior Extermination Mission",
+            "start": 162,
+            "end": 167
+        },
+        {
+            "season": "13",
+            "name": "Kaima Capture Mission",
+            "start": 169,
+            "end": 173
+        },
+        {
+            "season": "14",
+            "name": "Buried Gold Excavation Mission",
+            "start": 175,
+            "end": 176
+        },
+        {
+            "season": "15",
+            "name": "Star Guard Mission",
+            "start": 178,
+            "end": 183
+        },
+        {
+            "season": "16",
+            "name": "Peddlers Escort Mission",
+            "start": 187,
+            "end": 191
+        },
+        {
+            "season": "17",
+            "name": "Third Great Beast Arc",
+            "start": 195,
+            "end": 196
+        },
+        {
+            "season": "18",
+            "name": "Konoha Plans Recapture Mission",
+            "start": 197,
+            "end": 201
+        },
+        {
+            "season": "19",
+            "name": "Yakumo Kurama Rescue Mission",
+            "start": 203,
+            "end": 207
+        },
+        {
+            "season": "20",
+            "name": "Gantetsu Escort Mission",
+            "start": 209,
+            "end": 212
+        },
+        {
+            "season": "21",
+            "name": "Menma Memory Search Mission",
+            "start": 213,
+            "end": 215
+        },
+        {
+            "season": "22",
+            "name": "Sunagakure Support Mission",
+            "start": 216,
+            "end": 220
+        }
+    ],
+    "episodes": [
+        {
+            "japanese": "Sanjou! Uzumaki Naruto",
+            "english": "Enter: Naruto Uzumaki!"
+        },
+        {
+            "japanese": "Konohamaru da Kore!",
+            "english": "My Name is Konohamaru!"
+        },
+        {
+            "japanese": "Shukuteki!? Sasuke to Sakura",
+            "english": "Sasuke and Sakura: Friends or Foes?"
+        },
+        {
+            "japanese": "Shiren! Survival Enshuu",
+            "english": "Pass or Fail: Survival Test"
+        },
+        {
+            "japanese": "Shikkaku? Kakashi no Ketsuron",
+            "english": "You Failed! Kakashi's Final Decision"
+        },
+        {
+            "japanese": "Juuyou Ninmu! Nami no Kuni e Chou-shuppatsu!",
+            "english": "A Dangerous Mission! Journey to the Land of Waves!"
+        },
+        {
+            "japanese": "Kiri no Ansatsusha!",
+            "english": "The Assassin of the Mist!"
+        },
+        {
+            "japanese": "Itami ni Chikau Ketsui",
+            "english": "The Oath of Pain"
+        },
+        {
+            "japanese": "Sharingan no Kakashi",
+            "english": "Kakashi: Sharingan Warrior"
+        },
+        {
+            "japanese": "Chakra no Mori",
+            "english": "The Forest of Chakra"
+        },
+        {
+            "japanese": "Eiyuu no ita Kuni",
+            "english": "The Land Where a Hero Once Lived"
+        },
+        {
+            "japanese": "Kyoijou Kessen! Zabuza Futatabi!!",
+            "english": "Battle on the Bridge! Zabuza Returns!!"
+        },
+        {
+            "japanese": "Haku no Hijutsu: Makyou Hyoushou",
+            "english": "Haku's Secret Jutsu: Crystal Ice Mirrors"
+        },
+        {
+            "japanese": "Igaisei No. 1, Naruto Sansen!",
+            "english": "The Number One Hyperactive, Knucklehead Ninja Joins the Fight!!"
+        },
+        {
+            "japanese": "Shikai Zero no Tatakai: Sharingan Kuzushi",
+            "english": "Zero Visibility: The Sharingan Shatters"
+        },
+        {
+            "japanese": "Kaihousareta Fuuin",
+            "english": "The Broken Seal"
+        },
+        {
+            "japanese": "Shiroi Kako: Himeta Omoi",
+            "english": "White Past: Hidden Ambition"
+        },
+        {
+            "japanese": "Shinobi to iu na no Dougu",
+            "english": "The Weapons Known as Shinobi"
+        },
+        {
+            "japanese": "Zabuza Yuki ni Chiru...",
+            "english": "The Demon in the Snow"
+        },
+        {
+            "japanese": "Shinshou Totsunyuu! Chuunin Shiken Dattebayo",
+            "english": "A New Chapter Begins: The Chunin Exam!"
+        },
+        {
+            "japanese": "Nanore! Arawareta Kyouteki-tachi!!",
+            "english": "Identify Yourself: Powerful New Rivals"
+        },
+        {
+            "japanese": "Kiai 120% Nau de Rock na Chousenjou!",
+            "english": "Chunin Challenge: Rock Lee vs. Sasuke!"
+        },
+        {
+            "japanese": "Kechirase Rival! Rookie 9 Zenin Shuugou",
+            "english": "Genin Takedown! All Nine Rookies Face Off!"
+        },
+        {
+            "japanese": "Ikinari Shikkaku? Chou-nankan no Daiichi Shike",
+            "english": "Start Your Engines: The Chunin Exam Begins!"
+        },
+        {
+            "japanese": "Detatoko Shoubu! Funbaridokoro no Juu Monme",
+            "english": "The Tenth Question: All or Nothing!"
+        },
+        {
+            "japanese": "Zettai Hikken! Shi no Mori Chokusen Rupo! Konoha no Gakkyuu Shinbun da Kore!",
+            "english": "Special Report: Live from the Forest of Death!"
+        },
+        {
+            "japanese": "Daini Shiken Start! Mawari wa Minna Teki Darake!",
+            "english": "The Chunin Exam Stage 2: The Forest of Death"
+        },
+        {
+            "japanese": "Kuu ka Kuwareru ka! Esa ni Natta Naruto",
+            "english": "Eat or be Eaten: Panic in the Forest"
+        },
+        {
+            "japanese": "Naruto Hangeki! Nigeneenn Dattebayo!",
+            "english": "Naruto's Counterattack: Never Give In!"
+        },
+        {
+            "japanese": "Yomigaere Sharingan! Hissatsu: Katon Ryuuka no Jutsu!",
+            "english": "The Sharingan Revived: Dragon-Flame Jutsu!"
+        },
+        {
+            "japanese": "Geki Mayu Platonic! Boku wa Shinu Made Anata wo Mamoru!!",
+            "english": "Bushy Brow's Pledge: Undying Love and Protection!"
+        },
+        {
+            "japanese": "Sakura Saku! Ketsui no Ushiro Sugata",
+            "english": "Sakura Blossoms!"
+        },
+        {
+            "japanese": "Muteki no Fomation! Ino-Shika-Chou!!",
+            "english": "Battle Formation: Ino-Shika-Cho!"
+        },
+        {
+            "japanese": "Akamaru Bikkuri! Gaara, Kyoui no Jitsuryoku",
+            "english": "Akamaru Trembles: Gaara's Cruel Strength!"
+        },
+        {
+            "japanese": "Nozokimi Genkin! Makimono no Himitsu",
+            "english": "The Scroll's Secret: No Peeking Allowed"
+        },
+        {
+            "japanese": "Bunshin Taiketsu! Ore ga Shuyaku Dattebayo!",
+            "english": "Clone vs. Clone: Mine are Better than Yours!"
+        },
+        {
+            "japanese": "Daini Shiken Toppa! Seizoroi Rookie Nine!",
+            "english": "Surviving the Cut! The Rookie Nine Together Again!"
+        },
+        {
+            "japanese": "Goukakusha Nibun ni Ichi!? Ikinari Shiai Dattebayo!!",
+            "english": "Narrowing the Field: Sudden Death Elimination!"
+        },
+        {
+            "japanese": "Geji Mayu Jealousy! Shishi Rendan Tanjou",
+            "english": "Bushy Brow's Jealousy: Lions Barrage Unleashed!"
+        },
+        {
+            "japanese": "Isshoku Sokuhatsu!! Kakashi vs Orochimaru",
+            "english": "Kakashi and Orochimaru: Face-to-Face!"
+        },
+        {
+            "japanese": "Rival Gekitotsu! Otomegokoro wa Honki Mode",
+            "english": "Kunoichi Rumble: The Rivals Get Serious!"
+        },
+        {
+            "japanese": "Best Battle wa Shaannaroo!!",
+            "english": "The Ultimate Battle: Cha!"
+        },
+        {
+            "japanese": "Shikamaru Tajitaji!? Kunoichi-tachi no Atsuki Tatakai",
+            "english": "Killer Kunoichi and a Shaky Shikamaru"
+        },
+        {
+            "japanese": "Akamaru Sansen! Makeinu wa Docchi da?",
+            "english": "Akamaru Unleashed! Who's Top Dog Now?"
+        },
+        {
+            "japanese": "Hinata Sekimen! Kankyaku Anguri, Naruto no Oku no te",
+            "english": "Surprise Attack! Naruto's Secret Weapon!"
+        },
+        {
+            "japanese": "Byakugan Kaigen!! Uchiki na Hinata no Daitan Ketsui!",
+            "english": "Byakugan Battle: Hinata Grows Bold!"
+        },
+        {
+            "japanese": "Akogare no Hito no me no mae de!!",
+            "english": "A Failure Stands Tall!"
+        },
+        {
+            "japanese": "Gaara Funsai!! Wakasa da! Power da! Bakuhatsu da!",
+            "english": "Gaara vs. Rock Lee: The Power of Youth Explodes!"
+        },
+        {
+            "japanese": "Nekketsu Ochikobore! Tsuini Sakuretsu, Kindan no Oogi!",
+            "english": "Lee's Hidden Strength: Forbidden Secret Jutsu!"
+        },
+        {
+            "japanese": "Aa Rock Lee! Kore ga Otoko no Ikizama yo!!",
+            "english": "The Fifth Gate: A Splendid Ninja is Born"
+        },
+        {
+            "japanese": "Yami ni Ugomeku Kage Sasuke ni Semaru Kiki!",
+            "english": "A Shadow in Darkness: Danger Approaches Sasuke"
+        },
+        {
+            "japanese": "Ebisu Futatabi! Harenchi wa Watashi ga Yurushimasen zo!",
+            "english": "Ebisu Returns: Naruto's Toughest Training Yet!"
+        },
+        {
+            "japanese": "Aiyashibaraku! Ero-sennin Toujou!",
+            "english": "Long Time No See: Jiraiya Returns!"
+        },
+        {
+            "japanese": "Ero-sennin Jikiden Kuchiyose no Jutsu Dattebayo!!",
+            "english": "The Summoning Jutsu: Wisdom of the Toad Sage!"
+        },
+        {
+            "japanese": "Setsunai Omoi Negai wo Kometa Ichirin",
+            "english": "A Feeling of Yearning, A Flower Full of Hope"
+        },
+        {
+            "japanese": "Sei ka Shi ka!? Menkyokaiden wa Inochigake!",
+            "english": "Live or Die: Risk it All to Win it All!"
+        },
+        {
+            "japanese": "Tonda! Haneta! Mogutta! Gama Oyabun Toujou!!",
+            "english": "He Flies! He Jumps! He Lurks! Chief Toad Appears!"
+        },
+        {
+            "japanese": "Shinobiyoru ma no te! Nerawareta Byoushitsu",
+            "english": "Hospital Besieged: The Evil Hand Revealed!"
+        },
+        {
+            "japanese": "Mou Retsu Mou Tsui Mou Dasshu Hansen Kaishi Dattebayo",
+            "english": "The Final Rounds: Rush to the Battle Arena!"
+        },
+        {
+            "japanese": "Byakugan vs Kage Bunshin! Ore wa Zettee Katsu!!",
+            "english": "Byakugan vs. Shadow Clone"
+        },
+        {
+            "japanese": "Shikaku Zero! Mou Hitotsu no Zettai Bougyo",
+            "english": "Ultimate Defense: Zero Blind Spot!"
+        },
+        {
+            "japanese": "Ochikobore no Sokojikara!",
+            "english": "A Failure's True Power"
+        },
+        {
+            "japanese": "Shikkaku!? Kiken! Maedaoshi! Haranbukumi no Daihonsen!",
+            "english": "Hit it or Quit it: The Final Rounds Get Complicated!"
+        },
+        {
+            "japanese": "Kumo wa ii naa... Yaruki Zero no Otoko",
+            "english": "Zero Motivation: The Guy with Cloud Envy!"
+        },
+        {
+            "japanese": "Gekitotsu! Konoha mai Suna Ugomeku Toki",
+            "english": "Dancing Leaf, Squirming Sand"
+        },
+        {
+            "japanese": "Arashi wo Yobu Otoko!! Sasuke no Gejimayu-ryuu Taijutsu!",
+            "english": "Bushy Brow's Jutsu: Sasuke Style!"
+        },
+        {
+            "japanese": "Date ni Okureta Wake ja nai! Kyuukyoku Ougi: Chidori Tanjou!!",
+            "english": "Late for the Show, But Ready to Go! The Ultimate Secret Technique is Born!"
+        },
+        {
+            "japanese": "Konoha Kuzushi Shidou!",
+            "english": "Zero Hour! The Destruction of the Hidden Leaf Village Begins!"
+        },
+        {
+            "japanese": "Mattemashita! A-rank Ninmu Dattebayo!!",
+            "english": "Village in Distress: A New A-Ranked Mission!"
+        },
+        {
+            "japanese": "Nigegoshi NO.1 Mendokuse~ ga Yarukkya nee!!",
+            "english": "A Shirker's Call to Action: A Layabout No More!"
+        },
+        {
+            "japanese": "Kokon Musou! Hokage to iu Level no Tatakai",
+            "english": "An Unrivaled Match: Hokage Battle Royale!"
+        },
+        {
+            "japanese": "Hokage no Ayamachi Kamen ni shita no Sugao",
+            "english": "A Mistake from the Past: A Face Revealed!"
+        },
+        {
+            "japanese": "Kinjutsu Ougi! Shiki Fuujin",
+            "english": "Forbidden Secret Technique: Reaper Death Seal!"
+        },
+        {
+            "japanese": "Kyougaku! Gaara no Shoutai",
+            "english": "Astonishing Truth! Gaara's Identity Emerges!"
+        },
+        {
+            "japanese": "Genkai Wo Koete... Sasuke no Ketsudan!!",
+            "english": "Sasuke's Decision: Pushed to the Edge!"
+        },
+        {
+            "japanese": "Tsukiyo no Ansatsusha",
+            "english": "Assassin of the Moonlit Night"
+        },
+        {
+            "japanese": "Hikari to Yami Gaara to iu na",
+            "english": "Light vs. Dark: The Two Faces of Gaara"
+        },
+        {
+            "japanese": "Bakuhatsu! Kore zo Naruto Ninpouchou~~!!",
+            "english": "Naruto's Ninja Handbook"
+        },
+        {
+            "japanese": "Limit Bucchigiri!: Hikari to Yami",
+            "english": "Beyond the Limit of Darkness and Light"
+        },
+        {
+            "japanese": "Sandaime yo, Towa ni......!!",
+            "english": "The Third Hokage, Forever..."
+        },
+        {
+            "japanese": "Asagiri no Kikyou",
+            "english": "Return of the Morning Mist"
+        },
+        {
+            "japanese": "Sharingan tai Sharingan!!",
+            "english": "Eye to Eye: Sharingan vs. Sharingan!"
+        },
+        {
+            "japanese": "Ou, nou~! Jiraiya no Jonan, Naruto no Sainan",
+            "english": "Jiraiya: Naruto's Potential Disaster!"
+        },
+        {
+            "japanese": "Unare Chidori, Hoero Sasuke!",
+            "english": "Roar, Chidori! Brother vs. Brother!"
+        },
+        {
+            "japanese": "Orokanaru Otouto yo Urame, Nikume!",
+            "english": "Hate Among the Uchihas: The Last of the Clan!"
+        },
+        {
+            "japanese": "Shugyou Kaishi, Ore wa Zettee Tsuyoku Naru!",
+            "english": "A New Training Begins: I Will Be Strong!"
+        },
+        {
+            "japanese": "Konjou!!! Warero Mizufuusen",
+            "english": "Keep on Training: Pop Goes the Water Balloon!"
+        },
+        {
+            "japanese": "Konoha Maaku to Hitaiate",
+            "english": "Focal Point: The Mark of the Leaf"
+        },
+        {
+            "japanese": "Hamon",
+            "english": "An Impossible Choice: The Pain Within Tsunade's Heart"
+        },
+        {
+            "japanese": "Ikari Bakuhatsu! Yurusaneettebayo",
+            "english": "Unforgivable! A Total Lack of Respect!"
+        },
+        {
+            "japanese": "Shodai Hokage no Isan Shi wo Yobu Kubikazari",
+            "english": "Inheritence! The Necklace of Death!"
+        },
+        {
+            "japanese": "YES ka NO ka! Tsunade no Kaitou",
+            "english": "A Dubious Offer! Tsunade's Choice!"
+        },
+        {
+            "japanese": "Koushou Ketsuretsu!",
+            "english": "Breakdown! The Deal is Off!"
+        },
+        {
+            "japanese": "Kurae! Ikari no Rasengan",
+            "english": "Attack! Fury of the Rasengan!"
+        },
+        {
+            "japanese": "Godaime Hokage, Inochi wo Kaketa Tatakai!",
+            "english": "The Fifth Hokage! A Life on the Line!"
+        },
+        {
+            "japanese": "Sansukumi no Tatakai",
+            "english": "Deadlock! Sannin Showdown!"
+        },
+        {
+            "japanese": "Naruto no Yukemuri Chindouchuu",
+            "english": "Kidnapped! Naruto's Hot Spring Adventure!"
+        },
+        {
+            "japanese": "Ninja wo Yamero! Tsunade no Tsuukoku",
+            "english": "Tsunade's Warning: Ninja No More!"
+        },
+        {
+            "japanese": "Hi no Ishi wo Tsugu Mono",
+            "english": "The Will of Fire Still Burns!"
+        },
+        {
+            "japanese": "Nekketsu Shitei no Kizuna: Otoko ga Nindou wo Tsuranuku toki",
+            "english": "Sensei and Student: The Bond of the Shinobi"
+        },
+        {
+            "japanese": "Mitai, Shiritai, Tashikametai Kakashi-sensei no Sugao",
+            "english": "Gotta See! Gotta Know! Kakashi-Sensei's True Face!"
+        },
+        {
+            "japanese": "Iza Shin Ninmu Giri to Ninjou to Chakoku wo Sukue!",
+            "english": "Mission: Help an Old Friend in the Land of Tea"
+        },
+        {
+            "japanese": "Naruto Gekichin!? Inbau Uzumaku Ouunabara",
+            "english": "The Race is on! Trouble on the High Seas!"
+        },
+        {
+            "japanese": "Hashire Idate! Arashi wo Yubi Haran no Nagitou!!",
+            "english": "Run Idate Run! Nagi Island Awaits!"
+        },
+        {
+            "japanese": "Gouru Chokuzen! Raimei Todoroku Daigekitou",
+            "english": "A Fierce Battle of Rolling Thunder!"
+        },
+        {
+            "japanese": "Todoku ka Idate! Shuunen no Last Spurt!!",
+            "english": "The Last Leg: A Final Act of Desperation"
+        },
+        {
+            "japanese": "Omae to Tatakaitai! Tsuini Gekitotsu Sasuke tai Naruto",
+            "english": "The Battle Begins: Naruto vs. Sasuke"
+        },
+        {
+            "japanese": "Mienai Kiretsu",
+            "english": "Bitter Rivals and Broken Bonds"
+        },
+        {
+            "japanese": "Oto no Izanai",
+            "english": "An Invitation from the Sound"
+        },
+        {
+            "japanese": "Kessei! Teppeki Formation",
+            "english": "Formation! The Sasuke Retrieval Squad"
+        },
+        {
+            "japanese": "Sesshoku: Oto Yoninshuu no Jitsuryoku",
+            "english": "Sound vs. Leaf"
+        },
+        {
+            "japanese": "Ikinari Nakamaware!? Shikamaru Shoutai Daipinchi",
+            "english": "Squad Mutiny: Everything Falls Apart!"
+        },
+        {
+            "japanese": "Power Zenkai! Moero Chouji",
+            "english": "Full Throttle Power! Choji, Ablaze!"
+        },
+        {
+            "japanese": "Saraba Tomo yo...! Soredemo Ore wa Shinjiteru",
+            "english": "Good-bye Old Friend...! I'll Always Believe in You!"
+        },
+        {
+            "japanese": "Omae no Aite wa Kono Ore da!",
+            "english": "Your Opponent Is Me!"
+        },
+        {
+            "japanese": "Shikai Sanbyaku-rokujuu do, Byakugan no Shikaku",
+            "english": "360 Degrees of Vision: The Byakugan's Blind Spot"
+        },
+        {
+            "japanese": "Makerarenai Riyuu",
+            "english": "Losing is Not an Option!"
+        },
+        {
+            "japanese": "Dakkan ~ Ma ni Awanakatta Utsuwa",
+            "english": "The Vessel Arrives Too Late"
+        },
+        {
+            "japanese": "Shissaku! Aratanaru Teki",
+            "english": "Miscalculation: A New Enemy Appears!"
+        },
+        {
+            "japanese": "Unare! Hoero! Kyuukyoku no Tag",
+            "english": "Roar and Howl! The Ultimate Tag Team"
+        },
+        {
+            "japanese": "Sorezore no Tatakai",
+            "english": "To Each His Own Battle"
+        },
+        {
+            "japanese": "Fake! Otoko Shikamaru Kishikaisei no Kake",
+            "english": "Fakeout: Shikamaru's Comeback!"
+        },
+        {
+            "japanese": "Konoha no Aoki Yajuu Kenzan!",
+            "english": "The Leaf's Handsome Devil!"
+        },
+        {
+            "japanese": "Yajuu Sakuretsu! Hajikero Futtobe Tsukinukero!",
+            "english": "The Beast Within"
+        },
+        {
+            "japanese": "Konoha Doumeikoku Suna no Shinobi",
+            "english": "The Sand Shinobi: Allies of the Leaf"
+        },
+        {
+            "japanese": "Saikyou Taiketsu! Gaara tai Kimimaro!!",
+            "english": "Showdown: Gaara vs. Kimimaro!"
+        },
+        {
+            "japanese": "Shuunen no Ichigeki Sawarabi no Mai",
+            "english": "Vengeful Strike! The Bracken Dance"
+        },
+        {
+            "japanese": "Todokanai Sakebi",
+            "english": "A Cry on Deaf Ears"
+        },
+        {
+            "japanese": "Itachi to Sasuke Tousugiru Sonzai",
+            "english": "Brothers: Distance Among the Uchiha"
+        },
+        {
+            "japanese": "Chichi to ko Hibiwareta Kamon",
+            "english": "Father and Son, the Broken Crest"
+        },
+        {
+            "japanese": "Kaigan Mangekyou Sharingan no Himitsu",
+            "english": "The Secrets of the Mangekyo Sharingan!"
+        },
+        {
+            "japanese": "Tomo yo!",
+            "english": "For a Friend"
+        },
+        {
+            "japanese": "Namida no Houkou! Omae wa Ore no Tomodachi da",
+            "english": "A Plea From a Friend"
+        },
+        {
+            "japanese": "Namida Ame no Ketsumatsu",
+            "english": "The End of Tears"
+        },
+        {
+            "japanese": "Mamorenakatta Yakusoku",
+            "english": "The Promise That Could Not Be Kept"
+        },
+        {
+            "japanese": "Sennyuu Sousa!? Tsui ni Kitakita chou-S-kyuu Ninmu",
+            "english": "Deep Cover!? A Super S-Ranked Mission!"
+        },
+        {
+            "japanese": "Muhoumano no Machi Fuuma Ichizoku no Kage",
+            "english": "A Town of Outlaws, the Shadow of the Fuma Clan"
+        },
+        {
+            "japanese": "Kiyoki Uragiri Hakanaki negai",
+            "english": "Pure Betrayal, and a Fleeting Plea!"
+        },
+        {
+            "japanese": "Kyoufu! Orochimaru no Yakata",
+            "english": "Pure Terror! The House of Orochimaru"
+        },
+        {
+            "japanese": "Futatsu no Kodou Kabuto no Wana",
+            "english": "Two Heartbeats: Kabuto's Trap"
+        },
+        {
+            "japanese": "Sakura no Ketsui",
+            "english": "Sakura's Determination"
+        },
+        {
+            "japanese": "Genkai Shisetsu no San Akunin",
+            "english": "The Three Villains from the Maximum Security Prison"
+        },
+        {
+            "japanese": "Hashire Tonton! Omae no Hana ga Tayori Dattebayo",
+            "english": "Tonton! I'm Counting on You!"
+        },
+        {
+            "japanese": "Shinsei Suriiman Seru Futari to Ippiki",
+            "english": "A New Squad! Two People and a Dog?!"
+        },
+        {
+            "japanese": "Sakuretsu! New formation Inoshikachou",
+            "english": "A New Formation: Ino-Shika-Cho!"
+        },
+        {
+            "japanese": "Nokosareta Yabou Orochimaru no Kage",
+            "english": "Orochimaru's Shadow"
+        },
+        {
+            "japanese": "Innen no Taiketsu! Omae ni Ore wa Taosenee",
+            "english": "A Clash of Fate: You Can't Bring Me Down"
+        },
+        {
+            "japanese": "Chou-tsuibiryoku ni Akamaru mo Shitto! Maboroshi no Bikouchuu wo Sagase",
+            "english": "Search for the Rare Bikochu Beetle"
+        },
+        {
+            "japanese": "Doko ga Chigau no sa!? Mushi tte Onaji Mienai ka",
+            "english": "What's the Difference? Don't All Insects Look Alike?"
+        },
+        {
+            "japanese": "Damashite Bakashite Damasarete! Souzetsu Mushimushi dai Battle",
+            "english": "A Battle of Bugs: The Deceivers and the Deceived"
+        },
+        {
+            "japanese": "Moe yo Byakugan! Kore ga Watashi no Nindou yo",
+            "english": "Blaze Away Byakugan: This Is My Ninja Way"
+        },
+        {
+            "japanese": "Sei aru Mono e no Sousoukyoku",
+            "english": "Funeral March for the Living"
+        },
+        {
+            "japanese": "Kokoro no Todoke! Ai no Tekken",
+            "english": "A Lesson Learned: The Iron Fist of Love"
+        },
+        {
+            "japanese": "Byakugan no Tenteki",
+            "english": "The Enemy of the Byakugan"
+        },
+        {
+            "japanese": "Shinobi Yoru Anun",
+            "english": "The Dark Creeping Clouds"
+        },
+        {
+            "japanese": "Gyakushuu no Raiga",
+            "english": "Raiga's Counterattack"
+        },
+        {
+            "japanese": "Hashire!!! Seimei no Curry",
+            "english": "Run! The Curry of Life"
+        },
+        {
+            "japanese": "Minna ore ni Tsuite Koi! Ase to Namida no Takurami dai Sabaibaru",
+            "english": "Follow My Lead! The Great Survival Challenge"
+        },
+        {
+            "japanese": "Teki ka Mikata ka!? Kouya no Shoukinkasegi",
+            "english": "Bounty Hunter from the Wilderness"
+        },
+        {
+            "japanese": "Eru ka Erareru ka!? Okey Tera no Kettou",
+            "english": "Hunt or Be Hunted?! Showdown at the O.K. Temple!"
+        },
+        {
+            "japanese": "Sankyaku Kenzan Ao no Yajuu? Moujuu?... Sanjuu?",
+            "english": "The Appearance of Strange Visitors"
+        },
+        {
+            "japanese": "Shiroki Noroi Musha",
+            "english": "The Cursed Warrior"
+        },
+        {
+            "japanese": "Sakushi: Koumei no Omowaku",
+            "english": "The Tactician's Intent"
+        },
+        {
+            "japanese": "Ososugita Suketto",
+            "english": "Too Late for Help"
+        },
+        {
+            "japanese": "Naruto Shisu",
+            "english": "The Death of Naruto"
+        },
+        {
+            "japanese": "Todomatta Mama no Jikan",
+            "english": "When Time Stands Still"
+        },
+        {
+            "japanese": "Shirasagi no Habataku Jikan",
+            "english": "When Egrets Flap Their Wings"
+        },
+        {
+            "japanese": "Moero Zundou! Mazete Nobashite Yude Agero!",
+            "english": "Mix It, Stretch It, Boil It Up! Burn, Copper Pot, Burn!"
+        },
+        {
+            "japanese": "Kioku Ushinawareta Page",
+            "english": "Remembrance: The Lost Page"
+        },
+        {
+            "japanese": "Shougeki Tozasareta Door",
+            "english": "The Closed Door"
+        },
+        {
+            "japanese": "Sennyuu Shikumareta Trap",
+            "english": "Infiltration: The Set-Up!"
+        },
+        {
+            "japanese": "Zetsubou Hikisakareta Heart",
+            "english": "Despair: A Fractured Heart"
+        },
+        {
+            "japanese": "Kaisen Tokihanatareta Power",
+            "english": "The Battle at Sea: The Power Unleashed!"
+        },
+        {
+            "japanese": "Arieneettebayo! Serebu Ninpou - Kinton no Jutsu",
+            "english": "Impossible! Celebrity Ninja Art - Money Style Jutsu!"
+        },
+        {
+            "japanese": "Koko Hore Wan Wan! Maizoukin wo Sagase",
+            "english": "The Treasure Hunt is On!"
+        },
+        {
+            "japanese": "Shissou, Meisou, Jiguzagu sou! Otte Owarete Machigaete",
+            "english": "Run, Dodge, Zigzag! Chase or Be Chased!"
+        },
+        {
+            "japanese": "OH!? Please ♥ Mr. Postman",
+            "english": "Please, Mr. Postman!"
+        },
+        {
+            "japanese": "Deai Hoshi no na wo Motsu Shounen",
+            "english": "Encounter! The Boy with a Star's Name"
+        },
+        {
+            "japanese": "Natsuhi Boshi, Omoide no Komori Uta",
+            "english": "The Remembered Lullaby"
+        },
+        {
+            "japanese": "Hijutsu Kujaku Myouhou no Daishou",
+            "english": "Hidden Jutsu: The Price of The Ninja Art: Kujaku"
+        },
+        {
+            "japanese": "Hoshikage Houmurisarareta Shinjutsu",
+            "english": "Hoshikage, The Buried Truth"
+        },
+        {
+            "japanese": "Saikai Nokosareta Jikan",
+            "english": "Reunion, The Remaining time"
+        },
+        {
+            "japanese": "Hoshi wa Kagayaki wo Mashite",
+            "english": "The Star's Radiance"
+        },
+        {
+            "japanese": "Inuzuka Kiba no Naga~i Ichinichi",
+            "english": "Kiba's Long Day!"
+        },
+        {
+            "japanese": "Konohagakure no Densetsu, Onbaa wa Jitsuzai Shita!!",
+            "english": "A Legend from the Hidden Leaf: The Onbaa!"
+        },
+        {
+            "japanese": "Warau Shino",
+            "english": "Laughing Shino"
+        },
+        {
+            "japanese": "Kaigyou!! Konoha Hikkoshi Center",
+            "english": "Open for Business! The Leaf Moving Service"
+        },
+        {
+            "japanese": "Fukakai, Nerawareta Gyoushounin",
+            "english": "Mystery of the Targeted Merchants"
+        },
+        {
+            "japanese": "Chikasui Mujinzou no Ningu",
+            "english": "A Limitless Supply of Ninja Tools"
+        },
+        {
+            "japanese": "Hakugan wa Mita! Jiki Tsukai no Shikaku",
+            "english": "The Byakugan Sees the Blind Spot"
+        },
+        {
+            "japanese": "Shinosenkoku: Kumori Tokidoki Hare",
+            "english": "Forecast: Death! Cloudy with Chance of Sun"
+        },
+        {
+            "japanese": "Ino Zekkyou! Pocchari ♥ Paradise",
+            "english": "Ino Screams! Chubby Paradise!"
+        },
+        {
+            "japanese": "Biba Doujouyaburi! Seishun wa Bakuhatsu da",
+            "english": "Viva Dojo Challenge! Youth Is All About Passion!"
+        },
+        {
+            "japanese": "Kaiki, Norowareta Yureishiro",
+            "english": "The Mysterious Curse of the Haunted Castle"
+        },
+        {
+            "japanese": "Daisan no Choujuu, Saidai no Rival",
+            "english": "The Third Super-Beast!"
+        },
+        {
+            "japanese": "Namida no Gekitotsu! Nekketsu Shitei Taiketsu",
+            "english": "Hot-Blooded Confrontation: Student vs. Sensei"
+        },
+        {
+            "japanese": "Daipinchi! Konoha no Juuichi nin Zenin Shuugou",
+            "english": "Crisis! The Hidden Leaf 11 Gather!"
+        },
+        {
+            "japanese": "ANBU mou Teage, Naruto no Kioku",
+            "english": "The ANBU Gives Up? Naruto's Recollection"
+        },
+        {
+            "japanese": "Matohazure, Mietekita Hyouteki",
+            "english": "The Missed Target"
+        },
+        {
+            "japanese": "Geneki Baribari, Saikyou no Suketto",
+            "english": "The Powerful Helper"
+        },
+        {
+            "japanese": "Tajuu Trap, Houkai no Countdown",
+            "english": "Multiple Traps! Countdown to Destruction"
+        },
+        {
+            "japanese": "Ninjatachi no ase to Namida no Meishoubu Best 5!",
+            "english": "The Top 5 Ninja Battles"
+        },
+        {
+            "japanese": "Kurenai no ketsudan, Torinokosareta Daihappan",
+            "english": "Kurenai's Decision, Squad 8 Left Behind"
+        },
+        {
+            "japanese": "Nerawareta Yakumo, Fuuinsareta nouryoku",
+            "english": "Yakumo's Sealed Ability"
+        },
+        {
+            "japanese": "Kurenai no Gokuhi Ninmu: Sandaime to no Yakusoku",
+            "english": "Kurenai's Top-Secret Mission: The Promise With the Third Hokage"
+        },
+        {
+            "japanese": "Genjutsu ka Genjitsu ka, Gokan wo Seisuru Mono",
+            "english": "Genjutsu or Reality?"
+        },
+        {
+            "japanese": "Fuujiraretahazu no Nouryoku",
+            "english": "The Supposed Sealed Ability"
+        },
+        {
+            "japanese": "Meiki, Kachoufuugetsu no Omosa",
+            "english": "The Weight of the Prized Artifact!"
+        },
+        {
+            "japanese": "Teki wa Shinobazu",
+            "english": "The Enemy: Ninja Dropouts"
+        },
+        {
+            "japanese": "Mayoi no Mori",
+            "english": "The Bewildering Forest"
+        },
+        {
+            "japanese": "Honou no Kioku",
+            "english": "Memory of Flames"
+        },
+        {
+            "japanese": "Sorezore no Michi",
+            "english": "To Each His Own Path"
+        },
+        {
+            "japanese": "Ushinawareta Kioku",
+            "english": "Vanished Memories"
+        },
+        {
+            "japanese": "Torimodoshita Genjitsu",
+            "english": "Bringing Back Reality"
+        },
+        {
+            "japanese": "Keshi Saritai Kako",
+            "english": "A Past to Be Erased"
+        },
+        {
+            "japanese": "Kieta Takumi: Nerawareta Shukaku",
+            "english": "The Targeted Shukaku"
+        },
+        {
+            "japanese": "Suna no Doumeikuni Konoha no Shinobu",
+            "english": "Sand Alliance With The Leaf Shinobi"
+        },
+        {
+            "japanese": "Fuujiwareta Suna, Suiko no Hangeki",
+            "english": "The Counterattack!"
+        },
+        {
+            "japanese": "Yomigaetta Kyuukyoku Heiki",
+            "english": "The Ultimate Weapon Reborn"
+        },
+        {
+            "japanese": "Tabidachi",
+            "english": "Departure"
+        }
+    ]
+}
