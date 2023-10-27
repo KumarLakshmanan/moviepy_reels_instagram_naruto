@@ -54,7 +54,7 @@ def main():
         for i in range(3):
             segment = video_segments[i]
             segment_duration = segment.duration
-            segment_name = f"{episode_number}_{i}.mp4"
+            segment_name = f"{episode_number}_{i + 1}.mp4"
 
             segment_height = segment.h
             segment_width = segment.w
@@ -64,7 +64,7 @@ def main():
             y_pos = (bg_height - segment_height) / 2
 
             # Add the episode number and season name at the top, wrap text if too long
-            text1 = f"S{season_data['season']} - EP{episode_number}"
+            text1 = f"S{season_data['season']} - EP{episode_number} - PART {i + 1}"
             text2 = thisepisode['english']
 
             text1Top = (bg_height / 2 - segment_height / 2) - 150
@@ -74,6 +74,7 @@ def main():
                 text1, fontsize=60, color='white', font=custom_font_path)
             text_clip2 = mp.TextClip(
                 text2, fontsize=35, color='white', font=custom_font_path)
+
             text_clip1 = text_clip1.set_position(
                 (bg_width / 2 - text_clip1.w / 2, text1Top)
             ).set_duration(
@@ -88,7 +89,7 @@ def main():
 
             # Add the title "Naruto" at the bottom
             title_text = mp.TextClip(
-                "Naruto\n {}".format(season_data['name']), fontsize=30, color='white', font=custom_font_path)
+                "Naruto\n {}".format(season_data['name']), fontsize=40, color='white', font=custom_font_path)
             titleTop = bg_height / 2 + segment_height / 2 + 50
             title_text = title_text.set_position(
                 (bg_width / 2 - title_text.w / 2, titleTop)
@@ -99,7 +100,7 @@ def main():
             watermark = "@naruto_anime_series_tamil"
             watermark_text = mp.TextClip(watermark, fontsize=20, color='white')
             watermark_text = watermark_text.set_duration(segment_duration)
-            watermark_text = watermark_text.set_pos(10, 10)
+            watermark_text = watermark_text.set_pos((bg_width / 2 - watermark_text.w / 2, bg_height / 2 + segment_height / 2 + 50 + title_text.h + 10))
 
             # Composite the segment, text, and background
             segment = CompositeVideoClip([
@@ -111,8 +112,7 @@ def main():
                 watermark_text,
             ])
             segment = segment.set_duration(segment_duration)
-            segment.write_videofile(f"{output_directory}/{segment_name}")
-
+            segment.write_videofile(f"{output_directory}/{segment_name}", fps=24, codec='libx264')
         episode_number += 1
 
 
