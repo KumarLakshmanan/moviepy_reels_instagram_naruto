@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import json
+import os
 import moviepy.editor as mp
 from moviepy.video.compositing.CompositeVideoClip import CompositeVideoClip
 
@@ -56,63 +57,73 @@ def main():
             segment_duration = segment.duration
             segment_name = f"{episode_number}_{i + 1}.mp4"
 
-            segment_height = segment.h
-            segment_width = segment.w
+            outputFileName = output_directory+"/"+segment_name
+            if (os.path.exists(outputFileName)):
+                print("Skipping " + outputFileName)
+                continue
+            else:
+                print("Editing " + outputFileName)
 
-            # Calculate the position to center the segment
-            x_pos = (bg_width - segment_width) / 2
-            y_pos = (bg_height - segment_height) / 2
+                segment_height = segment.h
+                segment_width = segment.w
 
-            # Add the episode number and season name at the top, wrap text if too long
-            text1 = f"S{season_data['season']} - EP{episode_number} - PART {i + 1}"
-            text2 = thisepisode['english']
+                # Calculate the position to center the segment
+                x_pos = (bg_width - segment_width) / 2
+                y_pos = (bg_height - segment_height) / 2
 
-            text1Top = (bg_height / 2 - segment_height / 2) - 150
-            text2Top = text1Top + 70
+                # Add the episode number and season name at the top, wrap text if too long
+                text1 = f"S{season_data['season']} - EP{episode_number} - PART {i + 1}"
+                text2 = thisepisode['english']
 
-            text_clip1 = mp.TextClip(
-                text1, fontsize=60, color='white', font=custom_font_path)
-            text_clip2 = mp.TextClip(
-                text2, fontsize=35, color='white', font=custom_font_path)
+                text1Top = (bg_height / 2 - segment_height / 2) - 150
+                text2Top = text1Top + 70
 
-            text_clip1 = text_clip1.set_position(
-                (bg_width / 2 - text_clip1.w / 2, text1Top)
-            ).set_duration(
-                segment_duration)
-            text_clip2 = text_clip2.set_position(
-                (bg_width / 2 - text_clip2.w / 2, text2Top)
-            ).set_duration(segment_duration)
+                text_clip1 = mp.TextClip(
+                    text1, fontsize=60, color='white', font=custom_font_path)
+                text_clip2 = mp.TextClip(
+                    text2, fontsize=35, color='white', font=custom_font_path)
 
-            # Add the background image
-            background = mp.ImageClip(backgroundImage)
-            background = background.set_duration(segment_duration)
+                text_clip1 = text_clip1.set_position(
+                    (bg_width / 2 - text_clip1.w / 2, text1Top)
+                ).set_duration(
+                    segment_duration)
+                text_clip2 = text_clip2.set_position(
+                    (bg_width / 2 - text_clip2.w / 2, text2Top)
+                ).set_duration(segment_duration)
 
-            # Add the title "Naruto" at the bottom
-            title_text = mp.TextClip(
-                "Naruto\n {}".format(season_data['name']), fontsize=40, color='white', font=custom_font_path)
-            titleTop = bg_height / 2 + segment_height / 2 + 50
-            title_text = title_text.set_position(
-                (bg_width / 2 - title_text.w / 2, titleTop)
-            )
-            title_text = title_text.set_duration(segment_duration)
+                # Add the background image
+                background = mp.ImageClip(backgroundImage)
+                background = background.set_duration(segment_duration)
 
-            # Animated watermark
-            watermark = "@naruto_anime_series_tamil"
-            watermark_text = mp.TextClip(watermark, fontsize=20, color='white')
-            watermark_text = watermark_text.set_duration(segment_duration)
-            watermark_text = watermark_text.set_pos((bg_width / 2 - watermark_text.w / 2, bg_height / 2 + segment_height / 2 + 50 + title_text.h + 10))
+                # Add the title "Naruto" at the bottom
+                title_text = mp.TextClip(
+                    "Naruto\n {}".format(season_data['name']), fontsize=40, color='white', font=custom_font_path)
+                titleTop = bg_height / 2 + segment_height / 2 + 50
+                title_text = title_text.set_position(
+                    (bg_width / 2 - title_text.w / 2, titleTop)
+                )
+                title_text = title_text.set_duration(segment_duration)
 
-            # Composite the segment, text, and background
-            segment = CompositeVideoClip([
-                background,
-                segment.set_position((x_pos, y_pos)),
-                text_clip1,
-                text_clip2,
-                title_text,
-                watermark_text,
-            ])
-            segment = segment.set_duration(segment_duration)
-            segment.write_videofile(f"{output_directory}/{segment_name}", fps=24, codec='libx264')
+                # Animated watermark
+                watermark = "@naruto_anime_series_tamil"
+                watermark_text = mp.TextClip(watermark, fontsize=20, color='white')
+                watermark_text = watermark_text.set_duration(segment_duration)
+                watermark_text = watermark_text.set_pos(
+                    (bg_width / 2 - watermark_text.w / 2, bg_height / 2 + segment_height / 2 + 50 + title_text.h + 10))
+
+                # Composite the segment, text, and background
+                segment = CompositeVideoClip([
+                    background,
+                    segment.set_position((x_pos, y_pos)),
+                    text_clip1,
+                    text_clip2,
+                    title_text,
+                    watermark_text,
+                ])
+                segment = segment.set_duration(segment_duration)
+                segment.write_videofile(outputFileName,
+                                        fps=24, codec='libx264', audio_codec="aac", threads=8)
+
         episode_number += 1
 
 
