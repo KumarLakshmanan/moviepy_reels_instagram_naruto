@@ -57,8 +57,8 @@ def main():
             segment_duration = segment.duration
             segment_name = f"{episode_number}_{i + 1}.mp4"
 
-            outputFileName = output_directory+"/"+segment_name
-            if (os.path.exists(outputFileName)):
+            outputFileName = output_directory + "/" + segment_name
+            if os.path.exists(outputFileName):
                 print("Skipping " + outputFileName)
                 continue
             else:
@@ -67,8 +67,10 @@ def main():
                 segment_height = segment.h
                 segment_width = segment.w
 
-                # Calculate the position to center the segment
+                # Calculate the x_pos to center the segment horizontally
                 x_pos = (bg_width - segment_width) / 2
+                
+                # Calculate the y_pos to center the segment vertically
                 y_pos = (bg_height - segment_height) / 2
 
                 # Add the episode number and season name at the top, wrap text if too long
@@ -114,7 +116,7 @@ def main():
                 # Composite the segment, text, and background
                 segment = CompositeVideoClip([
                     background,
-                    segment.set_position((x_pos, y_pos)),
+                    segment.set_position((x_pos, y_pos)),  # Center the segment
                     text_clip1,
                     text_clip2,
                     title_text,
