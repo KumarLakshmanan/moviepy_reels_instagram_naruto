@@ -13,8 +13,10 @@ def find_season(episode_number, season_data):
     return "Season not found"
 
 
-def split_video(video_path, output_directory):
+def split_video(video_path):
     video = mp.VideoFileClip(video_path)
+    start_time = 90
+    video = video.subclip(start_time, video.duration - 90)
     video_duration = video.duration
     segment_duration = video_duration / 3
 
@@ -34,18 +36,30 @@ def main():
     with open('episodes.json', 'r', encoding='utf-8') as f:
         loopList = json.load(f)
 
-    episode_number = 1
     custom_font_path = "Blackout Midnight.ttf"
     output_directory = "edit"
     backgroundImage = "bg.png"
 
-    for thisepisode in loopList['episodes']:
+    # all episodes
+    videos = os.listdir("series")
+    episodes = []
+    
+    for i, video in enumerate(videos):
+        videoName = video.split(".")[0]
+        episode_number = int(videoName)
+        episodes.append(episode_number)
+
+    episodes.sort()
+
+    for i, episode_number in enumerate(episodes):
+
+    # for thisepisode in loopList['episodes']:
+        thisepisode = loopList['episodes'][episode_number - 1]
         season_data = find_season(episode_number, loopList)
         video_path = f"series/{episode_number}.mp4"
 
         # Split the video into three parts
-        video_segments, video_duration = split_video(
-            video_path, output_directory)
+        video_segments, video_duration = split_video(video_path)
 
         # Get the total height and width of the bg image
         bg = mp.ImageClip(backgroundImage)
@@ -69,7 +83,7 @@ def main():
 
                 # Calculate the x_pos to center the segment horizontally
                 x_pos = (bg_width - segment_width) / 2
-                
+
                 # Calculate the y_pos to center the segment vertically
                 y_pos = (bg_height - segment_height) / 2
 
@@ -124,9 +138,8 @@ def main():
                 ])
                 segment = segment.set_duration(segment_duration)
                 segment.write_videofile(outputFileName,
-                                        fps=24, codec='libx264', audio_codec="aac", threads=8)
+                                        fps=24, codec='libx264', audio_codec="aac", threads=4)
 
-        episode_number += 1
 
 
 if __name__ == '__main__':
